@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>figma to html</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo-container">
+          <img src="./public/Leadcrm Logo.png" alt="img" />
+        </div>
+        <div class="nav-links">
+          <ul id="menuList">
+            <li>
+              <a href="#">Product<i class="fa-solid fa-angle-down"></i></a>
+            </li>
+            <li><a href="#">Pricing</a></li>
+            <li>
+              <a href="#">Resources<i class="fa-solid fa-angle-down"></i></a>
+            </li>
+            <li>
+              <a href="#">Company<i class="fa-solid fa-angle-down"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-btn">
+          <button class="account-btn">Get Your Free Account</button>
+          <button class="login-btn">
+            <i class="fa-solid fa-arrow-right-to-bracket"></i> login
+          </button>
+          <button id="toggle-menu">
+            <i class="fa-solid fa-bars" onclick="toggle()"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="lending-page">
+        <div class="lending-page-btn">
+          <img src="./public/rocket.png" alt="" />
+          <p>Thousands of Professional using LeadCRM</p>
+        </div>
+        <div class="lending-page-title">
+          <h1>
+            LinkedIn CRM Integration
+            <br />Capture, Sync and Enrich in <span>Both Ways</span>
+          </h1>
+        </div>
+        <div class="lending-page-content">
+          <p>
+            Automatically sync LinkedIn prospects to your CRM and overlay
+            existing CRM contacts on LinkedIn profiles. Complete bi-directional
+            integration with HubSpot, Salesforce, and Pipedrive.
+          </p>
+        </div>
+        <div class="lending-page-links">
+          <p>works with</p>
+          <div class="links-images">
+            <img src="./public/Group 1171278188.png" alt="" />
+            <img src="./public/Group 1171278189.png" alt="" />
+            <img src="./public/Salesforce Integration.png" alt="" />
+          </div>
+        </div>
+        <div class="lending-page-review">
+          <img src="./public/chrome review.png" alt="" />
+          <img src="./public/playstore review.png" alt="" />
+        </div>
+        <div class="lending-page-store">
+          <div class="chrome-link">
+            <div class="chrom-link-text">
+              <p>
+                Available in<br />
+                <span id="temp">Chrom Web Store</span>
+              </p>
+            </div>
+            <img src="./public/chrome logo.png" alt="" />
+          </div>
+          <div class="account-link">
+            <h3>Get Your Free Account</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+      <!-- challenges section  -->
+
+      <section class="challenges-page">
+        <div class="quick-access-container">
+          <div class="quick-access">
+            <img src="./public/Adobe Express - file (37) 1 (1).png" alt="" />
+            <p>Access to <span>700M+ Contacts</span></p>
+          </div>
+          <div class="quick-access">
+            <img src="./public/cursor-pointer-icon-479x512-ek32btk3 1.png" alt="" />
+            <p>Access to <span>700M+ Contacts</span></p>
+          </div>
+          <div class="quick-access">
+            <img src="./public/H38cH38Bm0014IconSet004 1.png" alt="" />
+            <p>Access to <span>700M+ Contacts</span></p>
+          </div>
+          <div class="quick-access">
+            <img
+              src="./public/waterfall-3d-icon-download-in-png-blend-fbx-gltf-file-formats--water-landscape-river-nature-pack-icons-7520573 1.png"
+              alt=""
+            />
+            <p>Access to <span>700M+ Contacts</span></p>
+          </div>
+        </div>
+        <div class="challenges-page-title">
+          <h1>Every LinkedIn Prospector faces these daily challenges</h1>
+        </div>
+
+        <div class="challenges-content-container">
+          <div class="card" id="card-1">
+            <div class="img-container">
+              <img src="./public/sales navigator.png" alt="" />
+            </div>
+            <div class="card-title" id="red">
+              <h2>Without Lead CMR</h2>
+            </div>
+            <div class="card-details-container">
+              <div class="cross-container">
+                <i class="fa-solid fa-x"></i>
+              </div>
+              <div class="card-details-content">
+                <div class="card-details-title">
+                  <p>Manual Data Entry</p>
+                  <div class="card-details-tag">
+                    <p>3+ Hours wasted daily</p>
+                  </div>
+                </div>
+                <div class="card-details-text">
+                  <p>
+                    Copying LinkedIn contacts to CRM manually plus losing
+                    conversation history
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-details-container">
+              <div class="cross-container">
+                <i class="fa-solid fa-x"></i>
+              </div>
+              <div class="card-details-content">
+                <div class="card-details-title">
+                  <p>Incomplete Data</p>
+                  <div class="card-details-tag">
+                    <p>60% Data Incomplete</p>
+                  </div>
+                </div>
+                <div class="card-details-text">
+                  <p>
+                    LinkedIn profiles missing Email and Phones from 700M+
+                    Database
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-details-container">
+              <div class="cross-container">
+                <i class="fa-solid fa-x"></i>
+              </div>
+              <div class="card-details-content">
+                <div class="card-details-title">
+                  <p>No CRM Visibility</p>
+                  <div class="card-details-tag">
+                    <p>Zero context available</p>
+                  </div>
+                </div>
+                <div class="card-details-text">
+                  <p>
+                    Can’t see existing CRM contacts when browsing LinkedIn
+                    profiles
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-details-container">
+              <div class="cross-container">
+                <i class="fa-solid fa-x"></i>
+              </div>
+              <div class="card-details-content">
+                <div class="card-details-title">
+                  <p>Limited Productivity</p>
+                  <div class="card-details-tag">
+                    <p>No smart assistance</p>
+                  </div>
+                </div>
+                <div class="card-details-text">
+                  <p>
+                    Writing messages manually plus no AI assistant for reply,
+                    Invite or comments.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="vector-container">
+            <div class="vector"></div>
+            <span>vs</span>
+            <div class="vector"></div>
+          </div>
+          <div class="card" id="card-2">
+            <div class="img-container">
+              <img src="./public/sync.png" alt="" />
+            </div>
+            <div class="card-title" id="green">
+              <h2>With Lead CRM</h2>
+              <img src="./public/logo 3.png" alt="" />
+              <div class="title-details">
+                <p>4+ Hours/day Saved</p>
+              </div>
+            </div>
+            <div class="card-details-container">
+              <div class="cross-container">
+                <img src="./public/6220901 1.png" alt="" />
+              </div>
+              <div class="card-details-content">
+                <div class="card-details-title">
+                  <p>Complete Bi-Directional Sync</p>
+                </div>
+                <div class="card-details-text">
+                  <p>
+                    Automatically sync contacts, messages, and notes between
+                    LinkedIn and your CRM in real time.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-details-container">
+              <div class="cross-container">
+                <img src="./public/Adobe Express - file (37) 1.png" alt="" />
+              </div>
+              <div class="card-details-content">
+                <div class="card-details-title">
+                  <p>700M+ Contacts + Enrichment</p>
+                </div>
+                <div class="card-details-text">
+                  <p>
+                    Get verified emails and phone numbers from a vast global
+                    database.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-details-container">
+              <div class="cross-container">
+                <img
+                  src="./public/pngtree-d-illustration-of-a-layer-icon-featuring-stacked-elements-representing-structure-png-image_15917244 1.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-details-content">
+                <div class="card-details-title">
+                  <p>CRM Overlay on LinkedIn</p>
+                </div>
+                <div class="card-details-text">
+                  <p>
+                    See full CRM insights directly on LinkedIn profiles without
+                    switching tabs.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-details-container">
+              <div class="cross-container">
+                <img
+                  src="./public/beautiful-traditional-a-human-brain-connected-to-a-network-of-wires-and-glowing-with-data-illuminated-by-cool-blue-light-cyberpunk-style-genuine-png 1.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-details-content">
+                <div class="card-details-title">
+                  <p>AI Response + Templates + Bulk Exports</p>
+                </div>
+                <div class="card-details-text">
+                  <p>
+                    Save time with AI-crafted replies, pre-built templates, and
+                    one-click data exports.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="challenges-page-account-btn-container">
+          <div class="challenges-page-account-btn">Start Using LeadCRM Now</div>
+          <div class="challenges-page-account-vector">
+            <img src="./public/save hours.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+      <!-- steps section -->
+
+      <section id="steps-section">
+        <div class="steps-main-container">
+          <div class="steps-section-title">
+            <h2>How it Works</h2>
+            <div class="steps-title-text">
+              <p>From setup to success in 4 simple steps</p>
+            </div>
+          </div>
+          <div class="steps-card-container">
+            <div class="steps-card" id="step-1">
+              <div class="steps-card-title">
+                <h1>1</h1>
+                <h3>Install the Extension</h3>
+                <p>
+                  Add LeadCRM to Chrome and connect your CRM in 2 minutes—secure
+                  and seamless.
+                </p>
+              </div>
+              <div class="steps-card-img">
+                <img src="./public/Group 2147224140.png" alt="" />
+              </div>
+            </div>
+
+            <div class="steps-card" id="step-1">
+              <div class="steps-card-title">
+                <h1>2</h1>
+                <h3>Browse LinkedIn</h3>
+                <p>
+                  Use LinkedIn normally, our extension auto-captures data and
+                  reveals CRM contacts instantly.
+                </p>
+              </div>
+              <div class="steps-card-img">
+                <img src="./public/Group 1171278236.png" alt="" />
+              </div>
+            </div>
+            <div class="steps-card" id="step-1">
+              <div class="steps-card-title">
+                <h1>3</h1>
+                <h3>Get Enriched Data</h3>
+                <p>
+                  Enrich profiles with verified emails, phones, and company data
+                  with 95%+ accuracy guaranteed.
+                </p>
+              </div>
+              <div class="steps-card-img">
+                <img src="./public/Group 1171278237.png" alt="" />
+              </div>
+            </div>
+            <div class="steps-card" id="step-1">
+              <div class="steps-card-title">
+                <h1>4</h1>
+                <h3>Sync to CRM Instantly</h3>
+                <p>
+                  Prospect data syncs to your CRM instantly with history,
+                  tracking, and AI powered insights for better follow ups.
+                </p>
+              </div>
+              <div class="steps-card-img">
+                <img src="./public/Group 2147224141.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="steps-btn">
+            Try LeadCRM Now <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="steps-section-vector">
+          <img src="./public/Ball.png" alt="" />
+        </div>
+      </section>
+
+      <!-- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+      <!-- review section      -->
+
+      <section id="review-section">
+        <div class="review-title-container">
+          <h1>What people are saying about LeadCRM</h1>
+          <div class="review-title-btn">
+            <div class="btn-circle">
+              <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="btn-circle">
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+          </div>
+        </div>
+        <div class="review-card-container">
+          <div class="review-card">
+            <div class="review-text-container">
+              <div class="review-text">
+                <p>
+                  “Reliable Data Sync I’ve only had to refresh the extension a
+                  couple of times. The multi-contact enrichment is still a huge
+                  plus, and support is very responsive.“
+                </p>
+              </div>
+              <div class="review-rating">
+                <div class="playstore-icon">
+                  <img src="./public/capterra-logo 1.png" alt="" />
+                </div>
+                <div class="review-stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="review-name">
+              <div class="profile-photo">
+                <img src="./public/Avatar Users.png" alt="" />
+              </div>
+              <div class="profile-name">
+                <h5>David Fincher</h5>
+                <p>On Capterra</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-text-container">
+              <div class="review-text">
+                <p>
+                  My experience with LeadCRM has been excellent. It has
+                  streamlined my workflow, improved lead tracking, and made
+                  follow-ups more efficient. The responsive customer support is
+                  a big plus. Highly recommend it for reliable lead management!”
+                </p>
+              </div>
+              <div class="review-rating">
+                <div class="playstore-icon">
+                  <img src="./public/capterra-logo 1.png" alt="" />
+                </div>
+                <div class="review-stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="review-name">
+              <div class="profile-photo">
+                <img src="./public/Avatar Users (2).png" alt="" />
+              </div>
+              <div class="profile-name">
+                <h5>Lillian Williams</h5>
+                <p>On Capterra</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-text-container">
+              <div class="review-text">
+                <p>
+                  “Reliable Data Sync I’ve only had to refresh the extension a
+                  couple of times. The multi-contact enrichment is still a huge
+                  plus, and support is very responsive.“
+                </p>
+              </div>
+              <div class="review-rating">
+                <div class="playstore-icon">
+                  <img src="./public/capterra-logo 1.png" alt="" />
+                </div>
+                <div class="review-stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="review-name">
+              <div class="profile-photo">
+                <img src="./public/Avatar Users (3).png" alt="" />
+              </div>
+              <div class="profile-name">
+                <h5>Michael</h5>
+                <p>On Capterra</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- -------------------------------------------------------------------------------------------------------------------------------------------------  -->
+      <!-- sales section  -->
+
+      <section id="sales-section">
+        <div id="robot-vector">
+          <img src="./public/Group 2147224119.png" alt="" />
+        </div>
+        <div class="sales-title">
+          <h1>Complete LinkedIn Sales Solutions</h1>
+          <p>Everything you need for professional LinkedIn prospecting</p>
+        </div>
+        <div class="sales-quick-access-container">
+          <div class="sales-quick-access">
+            <img
+              src="./public/data-integration-3d-icon-download-in-png-blend-fbx-gltf-file-formats--automation-management-server-cloud-services-and-network-pack-communication-icons-7647733 1.png"
+              alt=""
+            />
+            <p>CRM Data Enrichment</p>
+          </div>
+          <div class="sales-quick-access">
+            <img
+              src="./public/sync-3d-icon-download-in-png-blend-fbx-gltf-file-formats--refresh-reload-loading-user-interface-vol-5-pack-icons-5314164 1.png"
+              alt=""
+            />
+            <p>CRM Data Sync</p>
+          </div>
+          <div class="sales-quick-access">
+            <img src="./public/c1759173c55f9fd9853731addc07da79_icon 1.png" alt="" />
+            <p>CRM Data Sync</p>
+          </div>
+          <div class="sales-quick-access">
+            <img
+              src="./public/beautiful-traditional-a-human-brain-connected-to-a-network-of-wires-and-glowing-with-data-illuminated-by-cool-blue-light-cyberpunk-style-genuine-png 1.png"
+              alt=""
+            />
+            <p>CRM Data Sync</p>
+          </div>
+        </div>
+        <div class="sales-second-title">
+          <p>
+            It’s hard to find the accurate contact data for every prospects by
+            <span class="sasles-second-title-tag">Incomplete Data</span>
+          </p>
+        </div>
+        <div class="sales-card-container">
+          <div class="sales-card">
+            <div class="sales-card-title">
+              <h3>Here is how <span>LeadCRM tackles</span> that situation.</h3>
+              <h3 id="green">
+                Try LeadCRM Data Enrichment<i
+                  class="fa-solid fa-angle-right"
+                ></i>
+              </h3>
+            </div>
+            <div class="sales-semicard-container">
+              <div class="sales-semicard">
+                <div class="semicard-title">
+                  <img src="./public/H38cH38Bm0014IconSet023 1.png" alt="" />
+                  <h5>Verified Email & Phone</h5>
+                </div>
+                <div class="sales-semicard-details">
+                  <img src="./public/Group 2147224128.png" alt="" />
+                </div>
+              </div>
+              <div class="sales-semicard">
+                <div class="semicard-title">
+                  <img src="./public/Adobe Express - file (40) 1.png" alt="" />
+                  <h5>40+ Search Filters</h5>
+                </div>
+                <div class="sales-semicard-details">
+                  <img src="./public/Frame 1171277486.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sales-card">
+            <div class="sales-card-title">
+              <h3>
+                If it does not works for you ! try our
+                <span class="green">
+                  Advanced Waterfall Enrichment<i
+                    class="fa-solid fa-angle-right"
+                  ></i
+                ></span>
+              </h3>
+            </div>
+            <div class="sales-semicard-2">
+              <div class="card-2-box" id="box1">
+                <div class="card-2-title">vendor1</div>
+                <div class="card-2-tag">
+                  <img src="./public/image 94.png" alt="" />
+                  <p>DropContact</p>
+                </div>
+                <div class="card-2-text">
+                  <p><i class="fa-solid fa-xmark"></i>Contacts Not Found</p>
+                </div>
+              </div>
+              <div id="down-aerrow-1">
+                <img src="./public/Vector 1814.png" alt="" />
+              </div>
+
+              <div class="card-2-box" id="box2">
+                <div class="card-2-title">vendor 2</div>
+                <div class="card-2-tag">
+                  <img src="./public/image d.png" alt="" />
+                  <p>Datagma</p>
+                </div>
+                <div class="card-2-text">
+                  <p><i class="fa-solid fa-xmark"></i>Contacts Not Found</p>
+                </div>
+              </div>
+              <div id="down-aerrow-2">
+                <img src="./public/Vector 1814.png" alt="" />
+              </div>
+              <div class="card-2-box" id="box3">
+                <div class="card-2-title">vendor 3</div>
+                <div class="card-2-tag">
+                  <img src="./public/image rocket.png" alt="" />
+                  <p>Rocket Reach</p>
+                </div>
+                <div class="card-2-text">
+                  <p><i class="fa-solid fa-xmark"></i>Contacts Not Found</p>
+                </div>
+              </div>
+              <div id="down-aerrow-3">
+                <img src="./public/Vector 1814.png" alt="" />
+              </div>
+              <div class="card-2-box" id="box4">
+                <div class="card-2-title">vendor 4</div>
+                <div class="card-2-tag">
+                  <img src="./public/image sh.png" alt="" />
+                  <p>Signal Hire</p>
+                </div>
+                <div class="card-2-text">
+                  <img src="./public/Frame 1171277687.png" alt="" />
+                  <img src="./public/Frame 1171277692.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ---------------------------------------------------------------------------------------------------------- -->
+      <!-- support section  -->
+
+      <section id="support-section">
+        <div class="support-section-title-container">
+          <div class="support-section-title">
+            <h1>Our Supported LeadCRM</h1>
+            <div class="support-section-vector">
+              <img src="./public/banner-thumb-7 1.png" alt="" />
+            </div>
+          </div>
+          <div class="support-section-title-details">
+            <p>
+              LeadCRM provides Native Integrations with popular CRM tools to
+              make the most out of your LinkedIn prospecting. We don’t want you
+              to miss any revenue opportunity on the internet!
+            </p>
+          </div>
+        </div>
+        <div class="CMR-img">
+          <img src="./public/leadcrm-supported-1536x636.png" alt="" />
+        </div>
+        <div class="CMR-img-mobile">
+          <img src="./public/Your-CRM.webp" alt="" />
+        </div>
+        <div class="support-section-btn">Lets Integrate your CRM Now!</div>
+        <div class="support-bottom-vector">
+          <img src="./public/Collaboration.png" alt="" />
+        </div>
+      </section>
+      <section id="join">
+        <div class="join-sction-title">
+          <h1>Join Thousands of Professionals Using LeadCRM</h1>
+        </div>
+        <div class="join-section-main">
+          <img src="./public/Product hunt banner image.png" alt="" />
+        </div>
+      </section>
+      <!-- --------------------------------------------------------------------------------------------------------------------------------------- -->
+      <!-- floting action section  -->
+      <section class="action-section">
+        <div class="trial-banner">
+          <div class="banner-content">
+            <div class="banner-left">
+              <div class="avatars">
+                <img src="./public/Avatar Users (1).png" alt="user1" />
+                <img src="./public/Avatar Users (2).png" alt="user2" />
+                <img src="./public/Avatar Users (3).png" alt="user3" />
+              </div>
+              <p>
+                Join with our <strong>Thousands of professionals</strong> Now!
+              </p>
+            </div>
+            <div class="action-section-btn">
+              <a href="#" class="trial-btn">Get a Free Trial Now!</a>
+            </div>
+          </div>
+
+          <div class="banner-footer">
+            <div class="footer-item">
+              <span class="icon">💳</span>
+              <p>No Credit Card <span>Required</span></p>
+            </div>
+            <div class="footer-item">
+              <span class="icon">⏰</span>
+              <p>14 Days Free <span>Trial</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <img src="./public/Leadcrm Logo.png" alt="LeadCRM Logo" class="footer-logo" />
+          <p class="footer-desc">
+            LeadCRM is LinkedIn integration tool for your CRM.
+          </p>
+          <div class="footer-socials">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <div>
+            <h3>Integrations</h3>
+            <ul>
+              <li>HubSpot</li>
+              <li>Salesforce</li>
+              <li>Pipedrive</li>
+              <li>Close.io <span class="tag">Coming Soon</span></li>
+              <li>Insightly <span class="tag">Coming Soon</span></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Alternative</h3>
+            <ul>
+              <li>Surfe VS LeadCRM</li>
+              <li>Linkmatch Alternative</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Legal</h3>
+            <ul>
+              <li>Privacy Policy</li>
+              <li>Terms of Use</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-contact">
+          <h3>Contact Us</h3>
+          <p><i class="fa-regular fa-envelope"></i>support@leadcrm.io</p>
+          <p><i class="fa-solid fa-phone-volume"></i>+1 231-538-7466</p>
+          <p><i class="fa-solid fa-question"></i>Help Center</p>
+          <div class="chrome-btn">
+            <img src="./public/Chrome_Favicon (1).png" alt="Chrome" />
+            <span>Available in Chrome</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="disclaimer">
+          Disclaimer: LeadCRM is not endorsed or certified by LinkedIn. All
+          LinkedIn™ logos and trademarks displayed on this tool are property of
+          LinkedIn. LeadCRM is distributed AS IS. Your use of LeadCRM is at your
+          own risk.
+        </p>
+        <p class="copyright">Copyright © 2025 LeadCRM. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <script>
+
+    // navbar script 
+    let menuList = document.querySelector("#menuList");
+    menuList.style.maxHeight = "50px";
+
+    function toggle() {
+      if (menuList.style.maxHeight == "50px") {
+        menuList.style.maxHeight = "500px";
+      } else {
+        menuList.style.maxHeight = "50px";
+      }
+    }
+// -----------------------------------------------------------------------------------------------------------------
+    // floting section script 
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.set(".action-section", { autoAlpha: 0, y: 50 });
+    gsap.to(".action-section", {
+      scrollTrigger: {
+        trigger: ".challenges-page", // when second section enters
+        start: "top center",
+        endTrigger: "footer", // end when footer comes into view
+        end: "top center",
+        toggleActions: "play reverse play reverse",
+        scrub: false,
+      },
+      autoAlpha: 1,
+      y: 0,
+      duration: 0.5,
+      ease: "power2.out",
+    });
+  </script>
+</html>
